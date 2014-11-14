@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9332DC1F1A104811002DDEA8 /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9332DC1E1A104811002DDEA8 /* SDL2_ttf.framework */; };
+		9332DC211A1048BF002DDEA8 /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9332DC201A1048BF002DDEA8 /* SDL2_mixer.framework */; };
 		938638141A0FB11900C9D22B /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938638131A0FB11900C9D22B /* SDL2_image.framework */; };
+		93A0781F1A157C5000F61E78 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A0781D1A157C5000F61E78 /* Game.cpp */; };
+		93A078221A16B2A600F61E78 /* Graficos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93A078201A16B2A600F61E78 /* Graficos.cpp */; };
 		93F3C4571A0FAD6C001710FB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93F3C4561A0FAD6C001710FB /* main.cpp */; };
 		93F3C45E1A0FADDC001710FB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3C45D1A0FADDC001710FB /* Cocoa.framework */; };
 		93F3C4601A0FAE43001710FB /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F3C45F1A0FAE43001710FB /* SDL2.framework */; };
@@ -27,9 +31,15 @@
 
 /* Begin PBXFileReference section */
 		9332DBEF1A104169002DDEA8 /* FundoMenu_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FundoMenu_640.png; sourceTree = "<group>"; };
-		938638101A0FAF7100C9D22B /* GameTeste.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GameTeste.xcodeproj; sourceTree = "<group>"; };
+		9332DC1E1A104811002DDEA8 /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		9332DC201A1048BF002DDEA8 /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
 		938638131A0FB11900C9D22B /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
 		938638161A0FB19900C9D22B /* FundoMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FundoMenu.png; sourceTree = "<group>"; };
+		93A0781C1A15781D00F61E78 /* TiroAmarelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TiroAmarelo.png; sourceTree = "<group>"; };
+		93A0781D1A157C5000F61E78 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		93A0781E1A157C5000F61E78 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		93A078201A16B2A600F61E78 /* Graficos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graficos.cpp; sourceTree = "<group>"; };
+		93A078211A16B2A600F61E78 /* Graficos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graficos.h; sourceTree = "<group>"; };
 		93F3C4531A0FAD6C001710FB /* GameTeste */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTeste; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F3C4561A0FAD6C001710FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		93F3C45D1A0FADDC001710FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -41,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9332DC211A1048BF002DDEA8 /* SDL2_mixer.framework in Frameworks */,
+				9332DC1F1A104811002DDEA8 /* SDL2_ttf.framework in Frameworks */,
 				938638141A0FB11900C9D22B /* SDL2_image.framework in Frameworks */,
 				93F3C4601A0FAE43001710FB /* SDL2.framework in Frameworks */,
 				93F3C45E1A0FADDC001710FB /* Cocoa.framework in Frameworks */,
@@ -50,28 +62,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		938638111A0FAF7100C9D22B /* Products */ = {
-			isa = PBXGroup;
-			name = Products;
-			sourceTree = "<group>";
-		};
 		938638151A0FB15A00C9D22B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				93A0781C1A15781D00F61E78 /* TiroAmarelo.png */,
 				9332DBEF1A104169002DDEA8 /* FundoMenu_640.png */,
 				938638161A0FB19900C9D22B /* FundoMenu.png */,
 			);
 			name = images;
+			path = GameTeste;
 			sourceTree = "<group>";
 		};
 		93F3C44A1A0FAD6C001710FB = {
 			isa = PBXGroup;
 			children = (
-				938638101A0FAF7100C9D22B /* GameTeste.xcodeproj */,
+				9332DC201A1048BF002DDEA8 /* SDL2_mixer.framework */,
+				9332DC1E1A104811002DDEA8 /* SDL2_ttf.framework */,
 				938638131A0FB11900C9D22B /* SDL2_image.framework */,
 				93F3C45F1A0FAE43001710FB /* SDL2.framework */,
 				93F3C45D1A0FADDC001710FB /* Cocoa.framework */,
 				93F3C4551A0FAD6C001710FB /* GameTeste */,
+				938638151A0FB15A00C9D22B /* images */,
 				93F3C4541A0FAD6C001710FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,8 +98,11 @@
 		93F3C4551A0FAD6C001710FB /* GameTeste */ = {
 			isa = PBXGroup;
 			children = (
-				938638151A0FB15A00C9D22B /* images */,
 				93F3C4561A0FAD6C001710FB /* main.cpp */,
+				93A0781D1A157C5000F61E78 /* Game.cpp */,
+				93A0781E1A157C5000F61E78 /* Game.h */,
+				93A078201A16B2A600F61E78 /* Graficos.cpp */,
+				93A078211A16B2A600F61E78 /* Graficos.h */,
 			);
 			path = GameTeste;
 			sourceTree = "<group>";
@@ -137,12 +151,6 @@
 			mainGroup = 93F3C44A1A0FAD6C001710FB;
 			productRefGroup = 93F3C4541A0FAD6C001710FB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 938638111A0FAF7100C9D22B /* Products */;
-					ProjectRef = 938638101A0FAF7100C9D22B /* GameTeste.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				93F3C4521A0FAD6C001710FB /* GameTeste */,
@@ -156,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F3C4571A0FAD6C001710FB /* main.cpp in Sources */,
+				93A0781F1A157C5000F61E78 /* Game.cpp in Sources */,
+				93A078221A16B2A600F61E78 /* Graficos.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
