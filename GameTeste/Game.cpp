@@ -22,6 +22,7 @@ Game::~Game() {
     //Return the resources from SDL.
     SDL_Quit();
 }
+
 void Game::Start() {
     //Create window
     janela = SDL_CreateWindow( "SDL Tutorial", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN );
@@ -50,6 +51,7 @@ void Game::Start() {
     
 
 }
+
 void Game::GotoMenu() {
     
     //Main loop flag
