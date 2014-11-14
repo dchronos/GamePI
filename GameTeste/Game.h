@@ -30,7 +30,6 @@ public:
     SDL_Surface* gScreenSurface = NULL;
     
     //Current displayed PNG image
-    SDL_Surface* gPNGSurface = NULL;
     SDL_Surface* gPNGSurface2 = NULL;
     
     //Constructors - Destructors

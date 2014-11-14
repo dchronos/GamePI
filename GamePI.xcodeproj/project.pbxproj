@@ -40,7 +40,7 @@
 		93A0781E1A157C5000F61E78 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		93A078201A16B2A600F61E78 /* Graficos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graficos.cpp; sourceTree = "<group>"; };
 		93A078211A16B2A600F61E78 /* Graficos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graficos.h; sourceTree = "<group>"; };
-		93F3C4531A0FAD6C001710FB /* GameTeste */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTeste; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F3C4531A0FAD6C001710FB /* GamePI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GamePI; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F3C4561A0FAD6C001710FB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		93F3C45D1A0FADDC001710FB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		93F3C45F1A0FAE43001710FB /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		93F3C4541A0FAD6C001710FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93F3C4531A0FAD6C001710FB /* GameTeste */,
+				93F3C4531A0FAD6C001710FB /* GamePI */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93F3C4521A0FAD6C001710FB /* GameTeste */ = {
+		93F3C4521A0FAD6C001710FB /* GamePI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93F3C45A1A0FAD6C001710FB /* Build configuration list for PBXNativeTarget "GameTeste" */;
+			buildConfigurationList = 93F3C45A1A0FAD6C001710FB /* Build configuration list for PBXNativeTarget "GamePI" */;
 			buildPhases = (
 				93F3C44F1A0FAD6C001710FB /* Sources */,
 				93F3C4501A0FAD6C001710FB /* Frameworks */,
@@ -122,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = GameTeste;
+			name = GamePI;
 			productName = GameTeste;
-			productReference = 93F3C4531A0FAD6C001710FB /* GameTeste */;
+			productReference = 93F3C4531A0FAD6C001710FB /* GamePI */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +141,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93F3C44E1A0FAD6C001710FB /* Build configuration list for PBXProject "GameTeste" */;
+			buildConfigurationList = 93F3C44E1A0FAD6C001710FB /* Build configuration list for PBXProject "GamePI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -153,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93F3C4521A0FAD6C001710FB /* GameTeste */,
+				93F3C4521A0FAD6C001710FB /* GamePI */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,7 @@
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GamePI;
 			};
 			name = Debug;
 		};
@@ -264,14 +264,14 @@
 					"$(inherited)",
 					"$(LOCAL_LIBRARY_DIR)/Frameworks",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GamePI;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93F3C44E1A0FAD6C001710FB /* Build configuration list for PBXProject "GameTeste" */ = {
+		93F3C44E1A0FAD6C001710FB /* Build configuration list for PBXProject "GamePI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F3C4581A0FAD6C001710FB /* Debug */,
@@ -280,7 +280,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F3C45A1A0FAD6C001710FB /* Build configuration list for PBXNativeTarget "GameTeste" */ = {
+		93F3C45A1A0FAD6C001710FB /* Build configuration list for PBXNativeTarget "GamePI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F3C45B1A0FAD6C001710FB /* Debug */,

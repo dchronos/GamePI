@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93F3C4521A0FAD6C001710FB"
-               BuildableName = "GameTeste"
-               BlueprintName = "GameTeste"
-               ReferencedContainer = "container:GameTeste.xcodeproj">
+               BuildableName = "GamePI"
+               BlueprintName = "GamePI"
+               ReferencedContainer = "container:GamePI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F3C4521A0FAD6C001710FB"
-            BuildableName = "GameTeste"
-            BlueprintName = "GameTeste"
-            ReferencedContainer = "container:GameTeste.xcodeproj">
+            BuildableName = "GamePI"
+            BlueprintName = "GamePI"
+            ReferencedContainer = "container:GamePI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,9 +52,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F3C4521A0FAD6C001710FB"
-            BuildableName = "GameTeste"
-            BlueprintName = "GameTeste"
-            ReferencedContainer = "container:GameTeste.xcodeproj">
+            BuildableName = "GamePI"
+            BlueprintName = "GamePI"
+            ReferencedContainer = "container:GamePI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F3C4521A0FAD6C001710FB"
-            BuildableName = "GameTeste"
-            BlueprintName = "GameTeste"
-            ReferencedContainer = "container:GameTeste.xcodeproj">
+            BuildableName = "GamePI"
+            BlueprintName = "GamePI"
+            ReferencedContainer = "container:GamePI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
